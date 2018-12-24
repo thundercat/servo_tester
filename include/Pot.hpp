@@ -1,5 +1,5 @@
 #pragma once
-#include "Arduino.h"
+#include <avr/io.h>
 
 void adc_setup();
 uint16_t adc_read();
